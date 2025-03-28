@@ -154,4 +154,4 @@ def get_rgb2x_demo():
 if __name__ == "__main__":
     demo = get_rgb2x_demo()
     demo.queue(max_size=1)
-    demo.launch()
+    demo.launch(share=True)
