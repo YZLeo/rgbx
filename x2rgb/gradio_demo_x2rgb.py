@@ -276,4 +276,4 @@ def get_x2rgb_demo():
 if __name__ == "__main__":
     demo = get_x2rgb_demo()
     demo.queue(max_size=1)
-    demo.launch()
+    demo.launch(share=True)
